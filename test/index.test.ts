@@ -1,4 +1,4 @@
-import { test, expect } from "bun:test";
+import { expect, test } from "bun:test";
 import { compress, decompress } from "../src";
 
 test("compress", async () => {
