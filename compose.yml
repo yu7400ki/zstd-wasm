@@ -1,0 +1,7 @@
+services:
+  emcc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/src

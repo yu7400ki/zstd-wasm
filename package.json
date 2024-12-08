@@ -1,0 +1,13 @@
+{
+  "name": "@yu7400ki/zstd-wasm",
+  "type": "module",
+  "scripts": {
+    "build:wasm": "docker compose up"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
