@@ -1,9 +1,12 @@
 {
   "name": "@yu7400ki/zstd-wasm",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "exports": {
     ".": "./src/index.ts",
     "./workers": "./src/workers/index.ts"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publish": {
+    "exclude": ["!src/zstd.d.ts", "!src/zstd.js", "!src/zstd.wasm"]
+  }
 }
