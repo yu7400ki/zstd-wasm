@@ -2,9 +2,12 @@
   "name": "@yu7400ki/zstd-wasm",
   "type": "module",
   "scripts": {
-    "build:wasm": "docker compose up"
+    "build:wasm": "docker compose up",
+    "lint": "biome check",
+    "format": "biome check --fix"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/bun": "latest"
   },
   "peerDependencies": {
